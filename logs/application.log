@@ -1718,3 +1718,22 @@
 2026-02-03T17:17:47.727+09:00  INFO 19404 --- [react] [http-nio-10000-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 167 ms
 2026-02-03T17:19:13.790+09:00  INFO 19404 --- [react] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
 2026-02-03T17:19:13.833+09:00  INFO 19404 --- [react] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-03T18:11:25.115+09:00  INFO 15228 --- [react] [restartedMain] com.example.react.ReactApplication       : Starting ReactApplication using Java 17.0.17 with PID 15228 (C:\ibm3-workspace\back-workspace\boot-workspace\react\build\classes\java\main started by hi in C:\ibm3-workspace\back-workspace\boot-workspace\react)
+2026-02-03T18:11:25.117+09:00 DEBUG 15228 --- [react] [restartedMain] com.example.react.ReactApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-03T18:11:25.117+09:00  INFO 15228 --- [react] [restartedMain] com.example.react.ReactApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-02-03T18:11:25.146+09:00  INFO 15228 --- [react] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-03T18:11:25.146+09:00  INFO 15228 --- [react] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-03T18:11:25.787+09:00  INFO 15228 --- [react] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 10000 (http)
+2026-02-03T18:11:25.796+09:00  INFO 15228 --- [react] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-03T18:11:25.796+09:00  INFO 15228 --- [react] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-03T18:11:25.827+09:00  INFO 15228 --- [react] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 681 ms
+2026-02-03T18:11:26.181+09:00  INFO 15228 --- [react] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 10000 (http) with context path '/'
+2026-02-03T18:11:26.186+09:00  INFO 15228 --- [react] [restartedMain] com.example.react.ReactApplication       : Started ReactApplication in 1.351 seconds (process running for 1.757)
+2026-02-03T18:11:26.188+09:00  WARN 15228 --- [react] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-02-03T18:11:26.188+09:00  WARN 15228 --- [react] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-02-03T18:11:32.813+09:00  INFO 15228 --- [react] [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03T18:11:32.813+09:00  INFO 15228 --- [react] [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-03T18:11:32.814+09:00  INFO 15228 --- [react] [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-02-03T18:11:33.078+09:00  INFO 15228 --- [react] [http-nio-10000-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 167 ms
+2026-02-03T18:19:55.956+09:00  INFO 15228 --- [react] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-03T18:19:55.998+09:00  INFO 15228 --- [react] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
